@@ -23,6 +23,11 @@ the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 * **V1.0.0** - Initial release
 * **V1.0.1** - OS Version support for Device Software **10.1.***
+* **V1.0.3** - Workaround for problem caused by NULL event_data in early 10.2 builds. Ignore false GATT connect errno 16 errors.
+* **V1.0.4** - Updated FLOT to version 0.8.2. 
+               Removed scan timer (redundant) 
+               Trigger device scanning on start now performed in C++ instead of QML as this was blocking completion of QML loading/rendering at 10.2.1.
+               Added ActivityIndicator to indicate scanning activity
 
 **Dependencies**
 
@@ -49,9 +54,15 @@ folder "installable-bar-files" as follows:
 **To contribute code to this repository you must be [signed up as an 
 official contributor](http://blackberry.github.com/howToContribute.html).**
 
+**Devices we've tested with**
+
+* Wahoo Blue HR
+* Polar H7
+* Zephyr HxM Smart
+
 **Known Issues**
 
-* You should ensure that the heart rate monitor that you use has been paired with the BlackBerry 10 device before using the application. Dynamic pairing will be added is a later release of this application.
+* You should ensure that the heart rate monitor that you use has been paired with the BlackBerry 10 device before using the application. Dynamic pairing will be added as a later release of this application.
 
 ## Contributing Changes
 

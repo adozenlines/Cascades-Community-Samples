@@ -10,7 +10,7 @@
     </message>
     <message>
         <location filename="../assets/AboutSheet.qml" line="40"/>
-        <source>V1.0.0</source>
+        <source>V1.0.1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,22 +318,22 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="../assets/main.qml" line="187"/>
+        <location filename="../assets/main.qml" line="184"/>
         <source>Cycling Monitor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../assets/main.qml" line="425"/>
+        <location filename="../assets/main.qml" line="422"/>
         <source>Available Monitors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../assets/main.qml" line="484"/>
+        <location filename="../assets/main.qml" line="487"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../assets/main.qml" line="494"/>
+        <location filename="../assets/main.qml" line="497"/>
         <source>Log Notifications</source>
         <translation type="unfinished"></translation>
     </message>
